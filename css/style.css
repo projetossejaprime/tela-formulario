@@ -622,13 +622,25 @@ section{
 
     .depo-box{
         padding: 0 !important;
+        height: auto !important;
+        max-height: unset !important;
+    }
+
+    .owl-carousel{
+        height: auto !important;
+        max-height: unset !important;
     }
 
     .depo-card{
         width: 100% !important;
-        max-height: 380px;
+        max-width: 320px !important;
+        max-height: unset;
 
-        margin: 15px 0 !important;
+        margin: 60px auto !important;
+    }
+
+    .onda-bot{
+        height: 80px;
     }
 
 }
@@ -749,6 +761,47 @@ section{
 
             transition: .2s ease-out;
         }
+
+    /* ================= FORM SMARTPHONES ================= */
+
+    .form-box > h2, p{
+        text-align: center !important;
+    }
+
+    .form-box > form{
+        width: 100% !important;
+    }
+
+    .form-labels{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    /* ================= DEPO SMARTPHONES ================= */
+
+    .depo-box{
+        padding: 0 !important;
+        height: auto !important;
+        max-height: unset !important;
+    }
+
+    .owl-carousel{
+        height: auto !important;
+        max-height: unset !important;
+    }
+
+    .depo-card{
+        width: 100% !important;
+        max-width: 320px !important;
+        max-height: unset;
+
+        margin: 60px auto !important;
+    }
+
+    .onda-bot{
+        height: 80px;
+    }
+    
 
 }
 
